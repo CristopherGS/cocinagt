@@ -1,0 +1,316 @@
+{
+  "currency": "GTQ",
+  "currencySymbol": "Q",
+  "country": "Guatemala",
+  "notes": "Precios estimados de mercado/tienda en Guatemala, en Quetzales (GTQ). Son referenciales y pueden variar por temporada y región. 'costPerServing' es el costo aproximado por porción.",
+  "categories": ["Desayuno", "Almuerzo", "Cena", "Snack"],
+  "ingredientGroups": ["Granos y abarrotes", "Verduras y frutas", "Carnes y huevos", "Lácteos", "Panadería y tortillería", "Otros"],
+  "recipes": [
+    {
+      "id": "frijoles-volteados",
+      "name": "Frijoles volteados con plátano",
+      "category": "Desayuno",
+      "servings": 4,
+      "prepMinutes": 20,
+      "costPerServing": 6.5,
+      "tags": ["económico", "vegetariano", "tradicional"],
+      "description": "El desayuno chapín por excelencia: frijoles negros refritos, acompañados de plátano frito, crema y tortillas.",
+      "ingredients": [
+        { "name": "Frijol negro cocido", "quantity": 2, "unit": "tazas", "group": "Granos y abarrotes", "cost": 8 },
+        { "name": "Plátano maduro", "quantity": 2, "unit": "unidades", "group": "Verduras y frutas", "cost": 6 },
+        { "name": "Crema", "quantity": 0.5, "unit": "taza", "group": "Lácteos", "cost": 7 },
+        { "name": "Aceite", "quantity": 3, "unit": "cucharadas", "group": "Otros", "cost": 2 },
+        { "name": "Tortillas de maíz", "quantity": 8, "unit": "unidades", "group": "Panadería y tortillería", "cost": 3 }
+      ],
+      "steps": [
+        "Licúa o machaca los frijoles negros con un poco de su caldo hasta obtener una pasta espesa.",
+        "Calienta aceite en un sartén y vierte los frijoles; muévelos hasta que espesen y se puedan voltear.",
+        "Corta el plátano en rodajas gruesas y fríelo hasta que dore.",
+        "Sirve los frijoles con el plátano, un chorrito de crema y tortillas calientes."
+      ]
+    },
+    {
+      "id": "huevos-rancheros",
+      "name": "Huevos rancheros chapines",
+      "category": "Desayuno",
+      "servings": 2,
+      "prepMinutes": 15,
+      "costPerServing": 7,
+      "tags": ["económico", "vegetariano", "rápido"],
+      "description": "Huevos fritos sobre tortilla tostada bañados en salsa de tomate y chile, con frijoles al lado.",
+      "ingredients": [
+        { "name": "Huevos", "quantity": 4, "unit": "unidades", "group": "Carnes y huevos", "cost": 6 },
+        { "name": "Tomate", "quantity": 3, "unit": "unidades", "group": "Verduras y frutas", "cost": 4 },
+        { "name": "Cebolla", "quantity": 0.5, "unit": "unidad", "group": "Verduras y frutas", "cost": 2 },
+        { "name": "Chile pimiento", "quantity": 0.5, "unit": "unidad", "group": "Verduras y frutas", "cost": 2 },
+        { "name": "Tortillas de maíz", "quantity": 4, "unit": "unidades", "group": "Panadería y tortillería", "cost": 2 }
+      ],
+      "steps": [
+        "Asa y licúa el tomate con la cebolla y el chile; cocina la salsa unos minutos con sal.",
+        "Tuesta ligeramente las tortillas en el comal.",
+        "Fríe los huevos al gusto.",
+        "Coloca cada huevo sobre una tortilla y baña con la salsa caliente."
+      ]
+    },
+    {
+      "id": "mosh-banano",
+      "name": "Mosh con banano y canela",
+      "category": "Desayuno",
+      "servings": 4,
+      "prepMinutes": 10,
+      "costPerServing": 3,
+      "tags": ["muy económico", "vegetariano", "rápido", "niños"],
+      "description": "Avena (mosh) cocida en leche con canela y banano. El desayuno más barato y rendidor.",
+      "ingredients": [
+        { "name": "Avena (mosh)", "quantity": 1.5, "unit": "tazas", "group": "Granos y abarrotes", "cost": 5 },
+        { "name": "Leche", "quantity": 4, "unit": "tazas", "group": "Lácteos", "cost": 6 },
+        { "name": "Banano", "quantity": 2, "unit": "unidades", "group": "Verduras y frutas", "cost": 3 },
+        { "name": "Canela", "quantity": 1, "unit": "raja", "group": "Otros", "cost": 1 },
+        { "name": "Azúcar", "quantity": 3, "unit": "cucharadas", "group": "Granos y abarrotes", "cost": 1 }
+      ],
+      "steps": [
+        "Hierve la leche con la canela y el azúcar.",
+        "Agrega la avena y cocina a fuego bajo moviendo hasta espesar (unos 5 minutos).",
+        "Sirve y agrega rodajas de banano encima."
+      ]
+    },
+    {
+      "id": "pepian-pollo",
+      "name": "Pepián de pollo (versión económica)",
+      "category": "Almuerzo",
+      "servings": 6,
+      "prepMinutes": 60,
+      "costPerServing": 14,
+      "tags": ["tradicional", "rinde mucho", "fin de semana"],
+      "description": "Platillo emblemático de Guatemala: pollo en un recado espeso de semillas tostadas y especias.",
+      "ingredients": [
+        { "name": "Pollo en piezas", "quantity": 1, "unit": "libra y media", "group": "Carnes y huevos", "cost": 30 },
+        { "name": "Pepitoria (semilla de ayote)", "quantity": 0.5, "unit": "taza", "group": "Granos y abarrotes", "cost": 8 },
+        { "name": "Ajonjolí", "quantity": 0.25, "unit": "taza", "group": "Granos y abarrotes", "cost": 5 },
+        { "name": "Tomate", "quantity": 4, "unit": "unidades", "group": "Verduras y frutas", "cost": 5 },
+        { "name": "Miltomate", "quantity": 4, "unit": "unidades", "group": "Verduras y frutas", "cost": 4 },
+        { "name": "Papa", "quantity": 3, "unit": "unidades", "group": "Verduras y frutas", "cost": 5 },
+        { "name": "Güisquil", "quantity": 1, "unit": "unidad", "group": "Verduras y frutas", "cost": 3 },
+        { "name": "Chile guaque", "quantity": 2, "unit": "unidades", "group": "Otros", "cost": 3 }
+      ],
+      "steps": [
+        "Cocina el pollo con sal hasta que esté suave; reserva el caldo.",
+        "Tuesta la pepitoria, el ajonjolí y los chiles en el comal.",
+        "Asa los tomates y miltomates; licúa todo junto con un poco de caldo.",
+        "Cuela el recado y cocínalo con el pollo, la papa y el güisquil hasta espesar.",
+        "Sirve con arroz y tortillas."
+      ]
+    },
+    {
+      "id": "hilachas",
+      "name": "Hilachas",
+      "category": "Almuerzo",
+      "servings": 6,
+      "prepMinutes": 70,
+      "costPerServing": 13,
+      "tags": ["tradicional", "rinde mucho"],
+      "description": "Carne de res deshebrada en un recado rojo de tomate con papa y güisquil.",
+      "ingredients": [
+        { "name": "Carne de res para deshebrar", "quantity": 1, "unit": "libra", "group": "Carnes y huevos", "cost": 28 },
+        { "name": "Tomate", "quantity": 5, "unit": "unidades", "group": "Verduras y frutas", "cost": 6 },
+        { "name": "Papa", "quantity": 3, "unit": "unidades", "group": "Verduras y frutas", "cost": 5 },
+        { "name": "Güisquil", "quantity": 1, "unit": "unidad", "group": "Verduras y frutas", "cost": 3 },
+        { "name": "Chile guaque", "quantity": 2, "unit": "unidades", "group": "Otros", "cost": 3 },
+        { "name": "Cebolla", "quantity": 1, "unit": "unidad", "group": "Verduras y frutas", "cost": 2 }
+      ],
+      "steps": [
+        "Cocina la carne con sal y cebolla hasta que esté suave; deshébrala y reserva el caldo.",
+        "Asa y licúa los tomates con el chile guaque.",
+        "Cocina el recado colado con la papa y el güisquil en trozos.",
+        "Agrega la carne deshebrada y cocina 15 minutos más.",
+        "Sirve con arroz y tortillas."
+      ]
+    },
+    {
+      "id": "caldo-pollo",
+      "name": "Caldo de pollo con verduras",
+      "category": "Almuerzo",
+      "servings": 5,
+      "prepMinutes": 50,
+      "costPerServing": 10,
+      "tags": ["económico", "reconfortante", "rinde mucho"],
+      "description": "Caldo sustancioso con pollo y verduras de temporada. Rinde y alimenta.",
+      "ingredients": [
+        { "name": "Pollo en piezas", "quantity": 1, "unit": "libra", "group": "Carnes y huevos", "cost": 20 },
+        { "name": "Güisquil", "quantity": 2, "unit": "unidades", "group": "Verduras y frutas", "cost": 6 },
+        { "name": "Zanahoria", "quantity": 2, "unit": "unidades", "group": "Verduras y frutas", "cost": 3 },
+        { "name": "Papa", "quantity": 3, "unit": "unidades", "group": "Verduras y frutas", "cost": 5 },
+        { "name": "Ejote", "quantity": 1, "unit": "taza", "group": "Verduras y frutas", "cost": 4 },
+        { "name": "Elote", "quantity": 2, "unit": "unidades", "group": "Verduras y frutas", "cost": 4 },
+        { "name": "Hierbabuena", "quantity": 1, "unit": "ramita", "group": "Verduras y frutas", "cost": 1 }
+      ],
+      "steps": [
+        "Pon a cocer el pollo con sal, cebolla y un diente de ajo.",
+        "Agrega las verduras duras (zanahoria, güisquil, elote) y cocina 20 minutos.",
+        "Añade la papa y el ejote; cocina hasta que todo esté suave.",
+        "Perfuma con hierbabuena antes de servir. Acompaña con arroz, limón y tortillas."
+      ]
+    },
+    {
+      "id": "chow-mein-gt",
+      "name": "Chow mein guatemalteco",
+      "category": "Almuerzo",
+      "servings": 5,
+      "prepMinutes": 30,
+      "costPerServing": 11,
+      "tags": ["rápido", "favorito", "rinde mucho"],
+      "description": "El chow mein chapín de fiestas: tallarín con pollo, verduras y salsa de tomate, coronado con huevo duro.",
+      "ingredients": [
+        { "name": "Tallarín / spaghetti", "quantity": 1, "unit": "libra", "group": "Granos y abarrotes", "cost": 8 },
+        { "name": "Pechuga de pollo", "quantity": 0.5, "unit": "libra", "group": "Carnes y huevos", "cost": 15 },
+        { "name": "Chile pimiento", "quantity": 1, "unit": "unidad", "group": "Verduras y frutas", "cost": 3 },
+        { "name": "Cebolla", "quantity": 1, "unit": "unidad", "group": "Verduras y frutas", "cost": 2 },
+        { "name": "Tomate", "quantity": 4, "unit": "unidades", "group": "Verduras y frutas", "cost": 5 },
+        { "name": "Repollo", "quantity": 0.25, "unit": "unidad", "group": "Verduras y frutas", "cost": 3 },
+        { "name": "Huevo", "quantity": 3, "unit": "unidades", "group": "Carnes y huevos", "cost": 5 },
+        { "name": "Salsa inglesa", "quantity": 2, "unit": "cucharadas", "group": "Otros", "cost": 2 }
+      ],
+      "steps": [
+        "Cocina el tallarín al dente y reserva.",
+        "Sofríe el pollo en tiras con la cebolla y el chile pimiento.",
+        "Licúa el tomate y agrégalo con salsa inglesa; cocina la salsa.",
+        "Mezcla el tallarín con la salsa, el pollo y el repollo en juliana.",
+        "Sirve con rodajas de huevo duro encima."
+      ]
+    },
+    {
+      "id": "arroz-guatemalteco",
+      "name": "Arroz guatemalteco",
+      "category": "Almuerzo",
+      "servings": 6,
+      "prepMinutes": 25,
+      "costPerServing": 4,
+      "tags": ["muy económico", "vegetariano", "acompañamiento"],
+      "description": "Arroz con verduras picadas: el acompañamiento clásico de casi todo almuerzo chapín.",
+      "ingredients": [
+        { "name": "Arroz", "quantity": 2, "unit": "tazas", "group": "Granos y abarrotes", "cost": 6 },
+        { "name": "Zanahoria", "quantity": 1, "unit": "unidad", "group": "Verduras y frutas", "cost": 2 },
+        { "name": "Arveja", "quantity": 0.5, "unit": "taza", "group": "Verduras y frutas", "cost": 3 },
+        { "name": "Chile pimiento", "quantity": 0.5, "unit": "unidad", "group": "Verduras y frutas", "cost": 2 },
+        { "name": "Aceite", "quantity": 2, "unit": "cucharadas", "group": "Otros", "cost": 1 }
+      ],
+      "steps": [
+        "Sofríe el arroz en aceite hasta que suene seco.",
+        "Agrega las verduras picadas y sofríe un minuto.",
+        "Añade agua caliente (el doble del arroz) y sal.",
+        "Tapa y cocina a fuego bajo hasta que seque."
+      ]
+    },
+    {
+      "id": "tostadas",
+      "name": "Tostadas de frijol, guacamol y salsa",
+      "category": "Cena",
+      "servings": 4,
+      "prepMinutes": 20,
+      "costPerServing": 6,
+      "tags": ["económico", "vegetariano", "rápido"],
+      "description": "Trío clásico de tostadas guatemaltecas: frijol, guacamol y salsa de tomate, con queso seco rallado.",
+      "ingredients": [
+        { "name": "Tostadas", "quantity": 12, "unit": "unidades", "group": "Panadería y tortillería", "cost": 8 },
+        { "name": "Frijol negro cocido", "quantity": 1, "unit": "taza", "group": "Granos y abarrotes", "cost": 4 },
+        { "name": "Aguacate", "quantity": 2, "unit": "unidades", "group": "Verduras y frutas", "cost": 8 },
+        { "name": "Tomate", "quantity": 4, "unit": "unidades", "group": "Verduras y frutas", "cost": 5 },
+        { "name": "Queso seco", "quantity": 0.25, "unit": "libra", "group": "Lácteos", "cost": 6 },
+        { "name": "Cebolla", "quantity": 0.5, "unit": "unidad", "group": "Verduras y frutas", "cost": 1 }
+      ],
+      "steps": [
+        "Prepara la salsa cociendo y licuando los tomates con cebolla y sal.",
+        "Machaca el aguacate con limón y sal para el guacamol.",
+        "Refríe los frijoles hasta formar una pasta.",
+        "Arma las tostadas: unas con frijol, otras con guacamol y otras con salsa. Corona con queso seco rallado."
+      ]
+    },
+    {
+      "id": "tamalitos-masa",
+      "name": "Tamalitos de masa con frijol",
+      "category": "Cena",
+      "servings": 8,
+      "prepMinutes": 60,
+      "costPerServing": 3.5,
+      "tags": ["muy económico", "vegetariano", "rinde mucho", "tradicional"],
+      "description": "Pequeños tamales de masa rellenos de frijol, envueltos en hoja de milpa. Rinden muchísimo.",
+      "ingredients": [
+        { "name": "Masa de maíz", "quantity": 2, "unit": "libras", "group": "Panadería y tortillería", "cost": 8 },
+        { "name": "Frijol negro cocido", "quantity": 1.5, "unit": "tazas", "group": "Granos y abarrotes", "cost": 6 },
+        { "name": "Manteca o aceite", "quantity": 0.25, "unit": "taza", "group": "Otros", "cost": 3 },
+        { "name": "Hojas de milpa / tusa", "quantity": 20, "unit": "unidades", "group": "Otros", "cost": 3 }
+      ],
+      "steps": [
+        "Mezcla la masa con la manteca, sal y un poco de agua hasta que quede suave.",
+        "Refríe los frijoles hasta formar una pasta.",
+        "Extiende una porción de masa en cada hoja, agrega frijol y envuelve.",
+        "Cocina al vapor por 40-45 minutos."
+      ]
+    },
+    {
+      "id": "sopa-tortilla",
+      "name": "Sopa de tortilla",
+      "category": "Cena",
+      "servings": 4,
+      "prepMinutes": 25,
+      "costPerServing": 5,
+      "tags": ["económico", "aprovecha sobras", "rápido"],
+      "description": "Caldo de tomate con tiras de tortilla tostada, aguacate y queso. Perfecta para aprovechar tortillas del día anterior.",
+      "ingredients": [
+        { "name": "Tortillas (del día anterior)", "quantity": 8, "unit": "unidades", "group": "Panadería y tortillería", "cost": 3 },
+        { "name": "Tomate", "quantity": 5, "unit": "unidades", "group": "Verduras y frutas", "cost": 6 },
+        { "name": "Cebolla", "quantity": 1, "unit": "unidad", "group": "Verduras y frutas", "cost": 2 },
+        { "name": "Aguacate", "quantity": 1, "unit": "unidad", "group": "Verduras y frutas", "cost": 4 },
+        { "name": "Queso seco", "quantity": 0.2, "unit": "libra", "group": "Lácteos", "cost": 5 }
+      ],
+      "steps": [
+        "Corta las tortillas en tiras y tuéstalas o fríelas hasta que doren.",
+        "Asa y licúa el tomate con la cebolla; cocina el caldo con sal.",
+        "Sirve el caldo caliente y agrega las tiras de tortilla, aguacate en cubos y queso."
+      ]
+    },
+    {
+      "id": "rellenitos",
+      "name": "Rellenitos de plátano",
+      "category": "Snack",
+      "servings": 6,
+      "prepMinutes": 40,
+      "costPerServing": 4,
+      "tags": ["económico", "vegetariano", "postre", "niños"],
+      "description": "Masa de plátano maduro rellena de frijol dulce, fritos y espolvoreados con azúcar.",
+      "ingredients": [
+        { "name": "Plátano maduro", "quantity": 4, "unit": "unidades", "group": "Verduras y frutas", "cost": 10 },
+        { "name": "Frijol negro cocido", "quantity": 1, "unit": "taza", "group": "Granos y abarrotes", "cost": 4 },
+        { "name": "Azúcar", "quantity": 4, "unit": "cucharadas", "group": "Granos y abarrotes", "cost": 1 },
+        { "name": "Aceite", "quantity": 0.5, "unit": "taza", "group": "Otros", "cost": 4 }
+      ],
+      "steps": [
+        "Cocina los plátanos con cáscara hasta que estén suaves; pélalos y machácalos.",
+        "Refríe los frijoles con azúcar hasta formar una pasta dulce.",
+        "Forma bolitas de plátano, rellénalas de frijol dulce y dales forma ovalada.",
+        "Fríe hasta dorar y espolvorea con azúcar."
+      ]
+    },
+    {
+      "id": "frijoles-parados",
+      "name": "Frijoles parados con queso",
+      "category": "Cena",
+      "servings": 4,
+      "prepMinutes": 15,
+      "costPerServing": 4.5,
+      "tags": ["muy económico", "vegetariano", "rápido"],
+      "description": "Frijoles negros enteros en su caldo, con queso fresco y tortillas. Sencillo, barato y lleno de sabor.",
+      "ingredients": [
+        { "name": "Frijol negro cocido", "quantity": 3, "unit": "tazas", "group": "Granos y abarrotes", "cost": 10 },
+        { "name": "Cebolla", "quantity": 0.5, "unit": "unidad", "group": "Verduras y frutas", "cost": 1 },
+        { "name": "Queso fresco", "quantity": 0.25, "unit": "libra", "group": "Lácteos", "cost": 6 },
+        { "name": "Tortillas de maíz", "quantity": 8, "unit": "unidades", "group": "Panadería y tortillería", "cost": 3 }
+      ],
+      "steps": [
+        "Calienta los frijoles con su caldo y un poco de cebolla picada.",
+        "Ajusta la sal y deja que suelten sabor unos minutos.",
+        "Sirve con queso fresco desmoronado y tortillas calientes."
+      ]
+    }
+  ]
+}

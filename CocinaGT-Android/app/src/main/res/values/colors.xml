@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cocina_green">#008559</color>
+    <color name="cocina_green_dark">#00603F</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

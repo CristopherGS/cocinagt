@@ -4,8 +4,8 @@ App iOS nativa (SwiftUI) de **CocinaGT**, planificador de comidas económicas pa
 
 ## Requisitos
 
-- **Xcode 16** o superior (el proyecto usa *file system synchronized groups*).
-- iOS 17.0+ como objetivo de despliegue.
+- **Xcode 16 o superior** (probado para Xcode 26 / SDK de iOS más reciente). Usa *file system synchronized groups*.
+- **iOS 18.0+** como objetivo de despliegue (optimizado para el iOS más reciente).
 
 ## Cómo abrir y correr
 
